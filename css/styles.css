@@ -64,37 +64,108 @@ text-decoration: none;
 }
 
 .auth-nav :hover,
-.auth-nav:focus{
+.auth-nav:focus {
   color: #2196f3;
 }
 
 
 
+/*main-index*/
+.section-heading{
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 1,14;
+letter-spacing: 0.03em;
+text-align: left;
+
+}
+.section-text{
+color: var(--title-text-color);
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: left;
+
+}
+.user{
+Width: 270px;
+Height: 260px;
+Top:1635px;
+}
+.user-work{
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 1,16;
+letter-spacing: 0.03em;
+text-align: center;
+
+}
+/*
+.user-workfoto{
+Width:370px;
+Height:294px;
+Top:1061px;
+}
+.user-workfoto1{
+  Left:215px;
+}
+
+.user-workfoto1{
+  Left:615px;
+}
+.user-workfoto3{
+  Left:1015px;
+  
+}
+
+.user-foto1{
+  left: 215px;
+}
+.user-foto2{
+    left: 515px;
+}
+.user-foto3{
+  left: 815px;
+}
+.user-foto4{
+  left: 1115px;
+
+}
+*/
 
 
+
+.user-name {
+    font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height:1,2;
+  letter-spacing: 0.03em;
+  text-align: center;
+  
+}
+.user-prof{
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1,2;
+letter-spacing: 0.03em;
+text-align: center;
+
+}
+
+/*main-portfolio*/
+.button{
+  cursor: pointer;
+  }
 
 
 
   
-.project-title{
-font-family: Roboto;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: 36px;
-letter-spacing: 0.06em;
-text-align: left;
-
-}
-
-{
-  font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
-letter-spacing: 0.03em;
-text-align: left;
 
 }
 
@@ -123,6 +194,7 @@ letter-spacing: 0.06em;
 text-align: center;
 
 }
+
 
 /* Особенности feature */
 .feature-title{
