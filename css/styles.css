@@ -48,26 +48,24 @@ text-decoration: none;
 }
 
 /* site nav  */
-.site-nav a{
-  color:var(--primary-text-color)
+.site-nav a {
   font-weight: 500;
   line-height: 1.1;
   text-align: left;
 }
 
+
 .link{ }
 
-.link-current:hover {
-  color:var(--logo-color);
-}
-
-.link-current:active{
+.link-current:active,
+.link-current:hover,
+.link-current:focus{
   color: #2196f3;
 }
 
 .auth-nav :hover,
 .auth-nav:focus{
-  color:var(--logo-color)
+  color: #2196f3;
 }
 
 
@@ -143,6 +141,9 @@ text-align: left;
  text-align: left;
 
 }
+
+
+
 
 
 
