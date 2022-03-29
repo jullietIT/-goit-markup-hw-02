@@ -1,4 +1,4 @@
-.root{
+:root{
   --primary-text-color: #212121;
   --title-text-color: #757575;
   --accent-color: #ffffff;
@@ -31,7 +31,7 @@ font-weight: 400;
 
 /*logo*/
 .logo {
-color: #2196f3;
+color: var(--logo-color);
 font-family: Raleway;
 font-size: 26px;
 font-weight: 700;
@@ -40,7 +40,7 @@ text-align: left;
 text-decoration: none;
 }
 .logo-black{
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 /* site nav  */
@@ -51,7 +51,7 @@ text-decoration: none;
 }
 .auth-nav :hover,
 .auth-nav:focus {
-  color: #2196f3;
+  color: var(--logo-color);
 }
 
 
@@ -95,13 +95,9 @@ font-weight: 400;
 line-height: 24px;
 letter-spacing: 0.03em;
 text-align: left;
+}
 
-}
-.user{
-Width: 270px;
-Height: 260px;
-Top:1635px;
-}
+
 .user-work{
 font-size: 36px;
 font-style: normal;
@@ -117,7 +113,7 @@ top: 969px;
 
 }
   /* Наша команда */
-.user-command{
+
  font-size: 36px;
 font-style: normal;
 font-weight: 700;
@@ -125,10 +121,6 @@ line-height: 1,16;
 text-align: center;
 letter-spacing: 0.03em;
 position: absolute;
-width: 264px;
-height: 42px;
-left: 668px;
-top: 1543px;
 
 
 }
@@ -183,6 +175,7 @@ letter-spacing: 0.03em;
 text-align: center;
 
 }
+*/
 
 /*main-portfolio*/
 
@@ -202,25 +195,10 @@ cursor: pointer;
 /* footer*/
 .link-contact{
   color: var(--accent-color);
-  position: absolute;
-width: 231px;
-height: 21px;
-left: 215px;
-top: 2208px;
-}
-
-.logo{
-position: absolute;
-width: 1600px;
-height: 252px;
-left: 0px;
-top: 2097px;
-
-background: #2F303A;
 }
 
 .logo-white{
-  color: #ffffff;
+  color:var(--accent-color);
   }
 
 
