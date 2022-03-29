@@ -14,23 +14,20 @@
 /* фон наша команда background: #F5F4FA  */
 
 .body{
-  
-  background-color: var(--primary-bg-color);
-  color: var(--primary-text-color);
-  font-family:Roboto,sans-serif;
-  letter-spacing:3%;
-  font-size: 14px;
-  line-height: 1.7;
-  font-weight: 400;
-    
-  }
+background-color: var(--primary-bg-color);
+color: var(--primary-text-color);
+font-family:Roboto,sans-serif;
+letter-spacing:3%;
+font-size: 14px;
+line-height: 1.7;
+font-weight: 400;
+ }
 
   li{
     list-style: none;
   }
 
- 
-  /* header */
+   /* header */
 
 /*logo*/
 .logo {
@@ -42,7 +39,6 @@ line-height: 1,19;
 text-align: left;
 text-decoration: none;
 }
-
 .logo-black{
   color: #212121;
 }
@@ -53,16 +49,6 @@ text-decoration: none;
   line-height: 1.1;
   text-align: left;
 }
-
-
-.link{ }
-
-.link-current:active,
-.link-current:hover,
-.link-current:focus{
-  color: #2196f3;
-}
-
 .auth-nav :hover,
 .auth-nav:focus {
   color: #2196f3;
@@ -71,9 +57,30 @@ text-decoration: none;
 
 
 /*main-index*/
+.section-title{
+font-size: 44px;
+font-style: normal;
+font-weight: 900;
+line-height: 1.4;
+letter-spacing: 0.06em;
+text-align: center;
+color: var(--accent-color)
+
+}
+
+.button-service{
+  color: var(--accent-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1,9;
+  letter-spacing: 0.06em;
+  text-align: center;
+  cursor: pointer;
+}
+
 .section-heading{
 font-size: 14px;
-font-style: normal;
 font-weight: 700;
 line-height: 1,14;
 letter-spacing: 0.03em;
@@ -102,9 +109,30 @@ font-weight: 700;
 line-height: 1,16;
 letter-spacing: 0.03em;
 text-align: center;
+position: absolute;
+width: 376px;
+height: 42px;
+left: 612px;
+top: 969px;
 
 }
-/*
+  /* Наша команда */
+.user-command{
+ font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 1,16;
+text-align: center;
+letter-spacing: 0.03em;
+position: absolute;
+width: 264px;
+height: 42px;
+left: 668px;
+top: 1543px;
+
+
+}
+
 .user-workfoto{
 Width:370px;
 Height:294px;
@@ -135,8 +163,6 @@ Top:1061px;
   left: 1115px;
 
 }
-*/
-
 
 
 .user-name {
@@ -159,72 +185,43 @@ text-align: center;
 }
 
 /*main-portfolio*/
-.button{
-  cursor: pointer;
-  }
 
-
-
-  
-
-}
-
-
-
-
-/* Шапка */
-.cap-title {
-  color: var(--primary-text-color);
-font-size: 44px;
-font-weight: 900;
-line-height: 1,4;
-letter-spacing: 0.06em;
-text-align: center;
-
-}
 /* Button */
-
 .button {
-  color: var(--accent-color);
-  background-color: var(--logo-color);
+color: var(--accent-color);
+background-color: var(--logo-color);
 font-size: 16px;
 font-weight: 700;
 line-height: 1.9;
 letter-spacing: 0.06em;
 text-align: center;
-
+cursor: pointer;
 }
-
-
-/* Особенности feature */
-.feature-title{
-font-weight: 700;
-line-height: 1.1;
-letter-spacing: 0.03em;
-text-align: left;
-
-  
-  
-}
-
-.feature-text{
- color: var(--title-text-color);
- letter-spacing: 0.03em;
- text-align: left;
-
-}
-
-
-
-
 
 
 /* footer*/
+.link-contact{
+  color: var(--accent-color);
+  position: absolute;
+width: 231px;
+height: 21px;
+left: 215px;
+top: 2208px;
+}
+
+.logo{
+position: absolute;
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 2097px;
+
+background: #2F303A;
+}
 
 .logo-white{
   color: #ffffff;
-  
-}
+  }
 
 
 
