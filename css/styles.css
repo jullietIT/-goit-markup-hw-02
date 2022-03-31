@@ -112,49 +112,21 @@ left: 612px;
 top: 969px;
 
 }
-  /* Наша команда */
 
+
+  /* Наша команда */
+.user-command{
  font-size: 36px;
 font-style: normal;
 font-weight: 700;
 line-height: 1,16;
 text-align: center;
 letter-spacing: 0.03em;
-position: absolute;
 
 
-}
-
-.user-workfoto{
-Width:370px;
-Height:294px;
-Top:1061px;
-}
-.user-workfoto1{
-  Left:215px;
-}
-
-.user-workfoto1{
-  Left:615px;
-}
-.user-workfoto3{
-  Left:1015px;
-  
-}
-
-.user-foto1{
-  left: 215px;
-}
-.user-foto2{
-    left: 515px;
-}
-.user-foto3{
-  left: 815px;
-}
-.user-foto4{
-  left: 1115px;
 
 }
+
 
 
 .user-name {
@@ -166,6 +138,7 @@ Top:1061px;
   text-align: center;
   
 }
+/*
 .user-prof{
 font-size: 16px;
 font-style: normal;
