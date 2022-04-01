@@ -4,6 +4,7 @@
   --accent-color: #ffffff;
   --logo-color: #2196f3;
   --primary-bg-color: #e5e5e5;
+  --color-block:   #2F303A;
 }
 /*цвет основного текста: #212121*/
 /*вторичный цвет текста: #757575; */
@@ -15,7 +16,7 @@
 
 .body{
 background-color: var(--primary-bg-color);
-color: var(--primary-text-color);
+color:var(--primary-text-color);
 font-family:Roboto,sans-serif;
 letter-spacing:3%;
 font-style: normal;
@@ -49,14 +50,49 @@ text-decoration: none;
   line-height: 1.1;
   text-align: left;
 }
-.auth-nav :hover,
-.auth-nav:focus {
+.link-current{
+  color:var(--logo-color);
+}
+
+.link:hover,
+.link:focus{
+  color: var(--logo-color);
+}
+
+
+.link{
+  color: var(--primary-text-color)
+}
+.auth-nav{
+  color:var(--primary-text-color)
+}
+
+.auth-nav:hover,
+.auth-nav:active{
   color: var(--logo-color);
 }
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*main-index*/
+.section-top{
+background-color:var(--color-block);
+color: var(--accent-color);
+}
 .section-title{
 font-size: 44px;
 font-style: normal;
@@ -64,14 +100,12 @@ font-weight: 900;
 line-height: 1.4;
 letter-spacing: 0.06em;
 text-align: center;
-color: var(--accent-color)
-
 }
 
 .button-service{
-  color: var(--accent-color);
+  color: var(--accent-color);  
   font-size: 16px;
-  font-style: normal;
+  font-style:normal;
   font-weight: 700;
   line-height: 1,9;
   letter-spacing: 0.06em;
