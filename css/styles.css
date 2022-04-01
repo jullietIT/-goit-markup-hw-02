@@ -203,6 +203,15 @@ cursor: pointer;
 .link-contact{
   color: var(--accent-color);
 }
+.link-contact:hover,
+.link-contact:focus{
+  color: var(--logo-color);
+}
+.footer{
+  background-color:var(--color-block);
+}
+
+
 
 .logo-white{
   color:var(--accent-color);
