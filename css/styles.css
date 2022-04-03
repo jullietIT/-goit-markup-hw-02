@@ -229,7 +229,7 @@ cursor: pointer;
   letter-spacing: 0.03em;
   text-align: left;
   color:var(--accent-color);
-  
+  font-style: normal;
 }
 
 .link-contact{
@@ -240,6 +240,7 @@ cursor: pointer;
   color:var(--accent-color);
   text-decoration:none;
   opacity:60%;
+  font-style: normal;
 }
 .link-contact:hover,
 .link-contact:focus{
