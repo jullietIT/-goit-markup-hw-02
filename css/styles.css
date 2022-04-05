@@ -21,7 +21,7 @@ font-family:Roboto,sans-serif;
 font-style: normal;
 line-height: 1.7;
 font-weight: 400;
-background-color: var(--color-button);
+
  }
 
   li{
@@ -86,13 +86,18 @@ text-decoration: none;
  Font-style: Medium;
 Font-size: 14px;
 Line-height:1.1;
-  color: var(--primary-text-color);
-  text-decoration:none;
+color: var(--primary-text-color);
+text-decoration:none;
 }
 .link-email{
-  color: var(--title-text-color);
- 
-}
+  color: var(--logo-color);
+  font-weight:500;
+ }
+
+ .link-email:hover,
+ .link-email:focus{
+  color:var(--title-text-color);
+ }
 
 .auth-nav{
   Size:14px;
@@ -156,7 +161,7 @@ line-height: 1.8;
 letter-spacing: 0.03em;
 text-align: left;
 }
-
+/*Чем мы занимаемся*/
 .user-prof
 .user-name{
   text-align: center;
@@ -169,10 +174,14 @@ font-weight: 700;
 line-height: 1.16;
 letter-spacing: 0.03em;
 text-align: center;
+Width:370px;
 }
 
 
   /* Наша команда */
+  .user-main{
+    background-color: var(--color-button);
+  }
   
 .user-command{
  font-size: 36px;
@@ -203,11 +212,6 @@ text-align: center;
 
 
 /*main-portfolio*/
-.project{
-  background-color: #EEEEEE;
-   
-}
-
 .project-title{
 color: var(--primary-text-color);
 font-size: 18px;
@@ -252,6 +256,9 @@ cursor: pointer;
   color: var(--accent-color);
 }
 
+.project{
+  Width:370px;
+}
 
 /* footer*/
 .footer{
