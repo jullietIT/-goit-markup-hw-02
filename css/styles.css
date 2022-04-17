@@ -212,6 +212,10 @@ text-align: center;
 
 
 /*main-portfolio*/
+.project-foto{
+  width: 370px;;
+
+}
 .project-title{
 color: var(--primary-text-color);
 font-size: 18px;
